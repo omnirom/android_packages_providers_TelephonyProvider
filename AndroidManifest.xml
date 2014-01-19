@@ -33,6 +33,11 @@
                   android:exported="true"
                   android:multiprocess="false" />
 
+        <provider android:name="BlacklistProvider"
+                  android:authorities="blacklist"
+                  android:exported="true"
+                  android:multiprocess="true" />
+
         <provider android:name="SmsProvider"
                   android:authorities="sms"
                   android:multiprocess="false"
